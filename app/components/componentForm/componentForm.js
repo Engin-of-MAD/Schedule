@@ -3,8 +3,8 @@
 angular.module('myApp.form', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/form', {
-    templateUrl: 'view/form/form.html',
+  $routeProvider.when('/Form', {
+    templateUrl: 'components/componentForm/componentForm.html',
     controller: 'formCtrl'
   });
 }])

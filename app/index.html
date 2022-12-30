@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7">
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,27 +9,23 @@
 
   <link rel="stylesheet" href="app.css">
 
-  <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-
 <nav>
     <ul class="menu-main">
-      <li><a href="#!/form">Форма</a></li>
-      <li><a href="#!/schld">Расписание</a></li>
+      <li><a href="#!/Form">Форма</a></li>
+      <li><a href="#!/Schdl">Расписание</a></li>
     </ul>
 </nav>
 
 </head>
 <body ng-app="myApp">
 
-
   <div ng-view></div>
-
 
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
-  <script src="view/form/view1.js"></script>
-  <script src="view/schld/view2.js"></script>
+  <script src="components/componentForm/componentForm.js"></script>
+  <script src="components/componentSchdl/componentSchdl.js"></script>
 
 </body>
 </html>
