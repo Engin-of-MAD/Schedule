@@ -38,13 +38,7 @@ a{
   font-family: 'Lora', serif;
   transition: .5s linear;
 }
-table, td, tr {
-  text-align: center;
-  border: 1px solid;
-  background-color: darkcyan;
-  border-collapse: collapse;
-  color: whitesmoke;
-}
+
 td{
   padding: 10px;
 }
@@ -86,3 +80,32 @@ table{
   margin-left: 300px;
   width: 180px;
 }
+.form{
+  background: none;
+}
+
+.schedule{
+  text-align: center;
+  border: 1px solid;
+  background-color: darkcyan;
+  border-collapse: collapse;
+  color: whitesmoke;
+}
+
+.send_btn{
+  color: #212529;
+  background-color: #fff;
+  border-color: #bdbdbd;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  border-radius:10px;
+  margin-left: 300px;
+}
+
+.error_input{
+  color: red;
+  margin-bottom: 10px;
+  position: relative;
+  top: 25px;
+}
+
